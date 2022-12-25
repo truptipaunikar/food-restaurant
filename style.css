@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/* general settings */
+
+/* navbaar start */
+nav{
+    display: flex;
+    padding: 3rem 10rem;
+    background-color: rgb(255,146,147);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navRight ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1.6rem;
+}
+.brandName{
+    margin: 0rem 4rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid white;
+}
+.brandName a{
+
+    text-decoration: none;
+}
+.navRight ul li a{
+    text-decoration: none;
+    margin: 0rem 5rem;
+    color: white;
+    font-size: 2rem;
+    font-family: monospace;
+}
+.navRight ul li a img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: .5rem;
+    border: 1px solid black;
+}
+.navRight ul li a:hover{
+   color: rgb(239, 204, 81);
+   border-bottom: 2px solid white;
+}
+/* navbaar end */
+
+/* home start */
+#home{
+    padding-top: 15rem;
+    background-color: rgb(255,146,147);
+    text-align: center;
+    color: white;
+    height:50rem;
+}
+#home h1{
+    font-size: 6rem;
+    padding: 3rem;
+}
+#home p{
+    font-size: 2rem;
+    font-style: italic;
+}
+.waveImg{
+    position: absolute;
+    right: 0rem;
+    top: 20rem;
+    height: 5rem;
+}
+.waveImg1{
+    position: absolute;
+    right: 0rem;
+    top: 24rem;
+    height: 5rem;
+}
+.ringImg{
+    position: absolute;
+    right: 0rem;
+    top: 60rem;
+    height: 10rem;
+}
+.downArrow{
+    height: 5rem;
+    padding: .5rem;
+    width: 5rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 3rem;
+}
+/* home end */
+
+/* menu start */
+#menu{
+    padding: 15rem 15rem 5rem 15rem;
+    background-color:rgb(254,249,243);
+    text-align: center;
+}
+#menu h1{
+    font-size:6rem;
+    color: rgb(255,220,104);
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#menu p{
+    font-size: 2.5rem;
+    margin: 3rem;
+    color: rgb(249, 171, 174);
+}
+.menuList{
+    display: flex;
+    margin: 6rem 15rem;
+    justify-content: space-between;
+}
+.menuList h2{
+  font-size: 2.5rem;  
+}
+.menuItem{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    font-family: monospace;
+    margin: 1rem;
+}
+.btn{
+    padding: .8rem 1.6rem;
+    background-color:rgb(255,147,147);
+    color: rgb(254,249,243);
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.drinksHeading{
+    margin-top: 1.1rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.drinks{
+    display: flex;
+    margin-bottom: 6rem;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+.circle{
+    margin-top:.7rem ;
+    margin-left: 1.5rem;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid black;
+}
+.burgerList{
+    width: 50rem;
+    margin: 3rem;
+}
+/* menu end */
+
+/* combos start */
+#combos{
+    padding: 15rem 15rem 5rem 15rem;
+    background-color: rgb(255,147,147);
+    text-align: center;
+}
+#combos h1{
+    font-size:6rem;
+    color: rgb(255,222,101);
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#combos p{
+    font-size: 2.5rem;
+    margin: 3rem;
+    color: rgb(254,249,243);
+}
+.comboCardParent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.comboCard{
+    background-color: rgb(254,249,243);
+    box-shadow: 2px 2px 10px black;
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 27rem;
+    height: 40rem;
+}
+.comboCard h6{
+    font-size: 2.3rem;
+    font-weight: 100;
+    font-family: monospace;
+}
+/* combos end */
+
+/* reservation start */
+#reservation{
+    text-align: center;
+}
+.orderBurgers{
+    padding: 15rem;
+    background-color: rgb(255,222,101);
+
+}
+.orderBurgers h2{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: rgb(251,150,137);
+}
+.orderStatusParent{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.statusOrder{
+    padding: 5rem;
+    height: 10rem;
+    width: 10rem;
+    margin: .4rem;
+    box-shadow: 2px 3px 10px black;
+    border-radius: 50%;
+    background-color: rgb(254,249,243);
+}
+.freeDeliversection{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 15rem;
+    /* background-color: black; */
+}
+.burgerImage img{
+    height: 30rem;
+    width: 40rem;
+    margin: 5rem;
+}
+.freeDeliveryContent{
+    font-size: 2rem;
+    margin: auto 5rem;
+}
+.freeDeliveryContent p{
+    color: white;
+    text-align: justify;
+    margin: 3rem 0rem;
+}
+.freeDeliveryContent h1{
+   font-size: 7rem;
+   color: rgb(254,249,243);
+   text-align: left;
+}
+.reservationForm{
+    background-color:rgb(255,146,147);
+    padding: 8rem;
+    text-align: center;
+}
+.reservationForm h1{
+    font-size: 7rem;
+    font-family: monospace;
+    color: rgb(255,222,101);
+}
+.inputBoxParent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.inputBox{
+    margin: 5rem;
+    /* background: red; */
+
+}
+.inputBox input{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 1px black;
+   background: rgb(255,146,147);
+   border: 3px solid rgb(254,249,243);
+   width: 100%;
+}
+.btnSub{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    background-color: white;
+    color: rgb(255,146,147);
+    border-radius: 2rem;
+}
+/* reservation end */
+
+/* about start */
+#about{
+    display: flex;
+    padding: 10rem;
+    background-color:rgb(255,222,101) ;
+}
+.aboutImg img{
+    height: 65rem;
+}
+.aboutContent{
+    width: 100%;
+    margin: auto 0rem auto 10rem;
+}
+.aboutContent h1{
+    font-size: 7rem;
+    color: rgb(255,146,147);
+}
+.aboutContent p{
+    font-size: 2rem;
+    text-align: justify;
+}
+/* about end */
+
+
+/* creators start */
+#creators{
+    padding: 15rem 25rem;
+    background: rgb(255,146,147);
+}
+#creators h1{
+    font-size: 7rem;
+    font-family: sans-serif;
+    color: rgb(255,222,101);
+}
+.creatorsParent{
+    display: flex;
+    justify-content: space-between;
+}
+.creatorsbox{
+    display: flex;
+    margin: 5rem;
+}
+.avator{
+    font-size: 4rem;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 50%;
+}
+.details{
+    margin: 0rem 3rem;
+    font-family: cursive;
+    font-size: 2rem;
+    color: white;
+}
+.foodLogo{
+    text-align: center;
+    margin: auto 0rem;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    background-color:rgb(255,222,101);
+}
+.foodLogo h2{
+    margin-top: 5rem;
+    font-size: 9rem;
+    font-family: monospace;
+}
+.foodLogo span{
+    font-size: 3rem;
+    border-bottom: 5px solid black;
+}
+/* creators end */
+
+/* burger blog start */
+#burgerBlog{
+    padding: 15rem;
+    text-align: center;
+    background-color: rgb(254,249,243);
+}
+#burgerBlog h1{
+    font-size: 6.5rem;
+    color: rgb(255,146,147);
+}
+#burgerBlog h3{
+    font-size: 3.5rem;
+    color: rgb(255,146,147);
+}
+.blogParent{
+    display: flex;
+    margin: 5rem;
+    justify-content: space-evenly;
+}
+.blogParent img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+/* burger blog end */
+/* footer start */
+#footer{
+    padding: 3rem 15rem 3rem 25rem;
+    background-color: rgb(255,222,101);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: black;
+
+}
+#footer div{
+    margin: 2rem;
+    font-size: 1.6rem;
+    width: 100%;
+    text-align: left;
+}
+#footer div h3{
+    margin: 2rem 0rem;
+    font-family: monospace;
+}
+#footer div p{
+    font-family: sans-serif;
+}
+.weareHere input{
+    padding: .8rem 1rem;
+    font-size: 1.7rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 1px black;
+    border: 3px solid white;
+    background-color: rgb(255,222,101);
+    color: white;
+    margin-top: 3rem;
+
+}
+.sayHello img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.aboutusContent{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#footer button{
+    margin-top: 3rem;
+}
+.followHeading{
+    padding: 3.2rem 0rem;
+    font-size: 2rem;
+}
+.sayHello{
+    padding-top: 6rem;
+}
+/* footer end */
